@@ -1,0 +1,13 @@
+body {
+    background-color: white
+}
+
+#static-site-img {
+    position: relative;
+    width: 100%;
+}
+
+#contact {
+    padding-left: 20%;
+    padding-right: 20%;
+}
