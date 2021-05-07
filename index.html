@@ -11,171 +11,236 @@
       integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
       crossorigin="anonymous"
     />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&family=Yesteryear&display=swap&family=Great+Vibes&display=swap" rel="stylesheet">
     <!-- stylesheet -->
     <link rel="stylesheet" href="style.css" />
     <title>Amie Rakosky Hood Portfolio</title>
   </head>
-  <body>
-    <nav class="nav">
-      <a class="nav-link active" aria-current="page" href="#">Amie Hood</a>
-      <a class="nav-link" href="#">About Me</a>
-      <a class="nav-link" href="#">Projects</a>
-      <a class="nav-link" href="#">Contact</a>
-    </nav>
 
+  <body class="d-flex flex-column h-100">
+
+    <!-- Navigation -->
     <header>
-      <div class="bg-dark text-secondary px-4 py-5 text-center">
-        <div class="py-5">
-          <h1 class="display-5 fw-bold text-white">Dark mode hero</h1>
-          <div class="col-lg-6 mx-auto">
-            <p class="fs-5 mb-4">
-              Quickly design and customize responsive mobile-first sites with
-              Bootstrap, the world’s most popular front-end open source toolkit,
-              featuring Sass variables and mixins, responsive grid system,
-              extensive prebuilt components, and powerful JavaScript plugins.
-            </p>
-          </div>
-        </div>
-      </div>
+      <nav class="nav navbar1">
+        <a class="nav-link active" aria-current="page" href="#home">Amie Hood</a>
+        <a class="nav-link" href="#about-me">About Me</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
     </header>
+    <!-- Heading -->
+    <div class="containter  heading" id="home">
+      <section class="py-5 text-center container">
+          <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+              <h1 class="display-5 name">Amie Rakosky Hood</h1>
+              <h1 class="display-6 text-muted">Javascript Developer</h1>
+          </div>
+          </div>
+      </section>
+    </div>
 
-    <main class="container-fluid pb-3">
-      <div class="d-grid gap-3" style="grid-template-columns: 1fr 2fr">
-        <div class="bg-light border rounded-3">
-          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-        </div>
-        <div class="bg-light border rounded-3">
-          <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-        </div>
-      </div>
-    </main>
+    <!-- About Me -->
 
-    <section class="container" id="projects">
-      <figure class="text-center">
-        <h1>Projects</h1>
-      </figure>
-
-      <div class="card">
-        <h5 class="card-header">Static Website</h5>
-        <div class="card-body">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="card">
-                <div class="card-body">
-                  <img src="./assets/hulu.png" class="card-img-top" alt="..." />
-                 
-                  
-                </div>
-              </div>
+    
+  <div class="container aboutMe" id="about-me">
+    <div>
+      <p>Hi and welcome to my page! I'm a beginning Javascript developer with a background in finance, arts, and nonprofit management. How do those come together? I'm a daydreamer who likes to dig deep into a problem to help solve it. Bring me your challenge. Let's work on it together!</p>
+      <a href="./assets/Amie.resume2.pdf" download target="_blank">View Résumé</a>
+    </div>
+  </div>
+  
+  <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+    <div class="resume">
+      <div class="about">
+        <div class="view2">
+          <div class="view2-inner">
+            <div class="view2-front">
+              <img src="./assets/Amie.png">
             </div>
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Special title treatment</h5>
-                  <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Nemo deserunt rerum cumque nisi laboriosam expedita quasi
-                    distinctio, quia accusamus? Beatae ea voluptatem odit
-                    consequatur rerum laudantium voluptatum debitis minima
-                    ipsam. Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Quo placeat tempora distinctio sit laboriosam corrupti
-                    natus accusantium quis magni incidunt ab aspernatur, minus,
-                    iste quaerat a provident in suscipit? Mollitia!
-                  </p>
-                  <a href="#" class="btn btn-primary">View Live!</a>
-                </div>
-              </div>
+            <div class="view2-back">
+              <h6>Motto</h6>
+              <p id="quote">"People will forget what you said, people will forget what you did, but people will never forget how you made them feel." -Maya Angelou</p>
             </div>
           </div>
+        </div>
+        <div class="view2">
+          <div class="view2-inner">
+            <div class="view2-front">
+              <img src="./assets/coins.jpg">
+            </div>
+            <div class="view2-back">
+              <h6>Banking/Finance</h6>
+              <p>Eleven years experience in banking and finance. Managed team of associates. Treasurer of nonprofit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="view2">
+          <div class="view2-inner">
+            <div class="view2-front">
+              <img src="./assets/violin2.jpg">
+            </div>
+            <div class="view2-back">
+              <h6>Violinist</h6>
+              <p>From a lecture recital in Salzburg to jamming with Pete Seeger. Teacher, performer, and IVCI host.</p>
+            </div>
+          </div>
+        </div>
+        <div class="view2">
+          <div class="view2-inner">
+            <div class="view2-front">
+              <img src="./assets/BfUSA-logo.jpg">
+            </div>
+            <div class="view2-back">
+              <h6>Vice President</h6>
+              <p>Breastfeeding USA Counselor and serving on the BOD of the national organization. Co-founder of Indy Chapter.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>  
+  </div>
+
+  <br />
+
+    <!-- Projects -->
+    <section class="container projects" id="projects">
+
+      <div class="row">
+          <h1>Projects</h1>
+      </div>
+      <div class="row">
+    <div class="container-fluid d-flex flex-wrap">
+      <div class="col-lg d-flex justify-content-center">
+          <div class="view view-first">
+            <img src="./assets/css-creature.png" />
+            <div class="mask">
+              <h2>CSS Creature</h2>
+              <p>My first exposure to CSS. Created a creature using CSS styling.</p>
+              <a href="https://codepen.io/AmieHood/pen/KKadmRZ" class="info" target="_blank">Visit codepen</a>
+            </div>
+        </div>
+      </div>
+        <div class="col-lg d-flex justify-content-center">
+          <div class="view view-first">
+            <img src="./assets/hulu.png" />
+            <div class="mask">
+              <h2>Static Website</h2>
+              <p>Copied the Hulu homepage using only HTML and CSS</p>
+              <a href="https://amiehood.github.io/staticWebsiteHulu/" class="info" target="_blank">Visit Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg d-flex justify-content-center">
+          <div class="view view-first">
+            <img src="./assets/covid-api.png" />
+            <div class="mask">
+              <h2>COVID-19 API</h2>
+              <p>Displayed COVID data by country in a scrollable, searchable table.</p>
+              <a href="https://amiehood.github.io/APIChallenge1/" class="info" target="_blank">Visit Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg d-flex justify-content-center">
+          <div class="view view-first">
+            <img src="./assets/nasa-api.png" />
+            <div class="mask">
+              <h2>NASA API</h2>
+              <p>Used NASA APOD API to create a searchable display of images and videos.</p>
+              <a href="https://nasa-api-faf6c.web.app" class="info" target="_blank">Visit Firebase</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg d-flex justify-content-center">
+          <div class="view view-first">
+            <img src="./assets/notebooks.jpg" />
+            <div class="mask">
+              <h2>Blue Badge TBA</h2>
+              <p>Future project here. Photo by pure julia on Unsplash</p>
+              <a href="https://unsplash.com/s/photos/sketchbook?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="info" target="_blank">Visit Unsplash</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg d-flex justify-content-center">
+          <div class="view view-first">
+            <img src="./assets/agile.jpg" />
+            <div class="mask">
+              <h2>Red Badge TBA</h2>
+              <p>Future project here. Photo by İrfan Simsar on Unsplash</p>
+              <a href="https://unsplash.com/s/photos/agile?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" class="info" target="_blank">Visit Unsplash</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
         </div>
       </div>
     </section>
+
+    <!-- Contact -->
 
     <section id="contact" class="container-sm">
-
+      <figure class="text-center">
         <h1>Contact</h1>
-    
-      <form
-        id="fs-frm"
-        name="simple-contact-form"
-        accept-charset="utf-8"
-        action="https://formspree.io/f/xbjqjnyp"
-        method="post"
-      >
-        <fieldset id="fs-frm-inputs">
-        <div class="row justify-content-center">
+      </figure>
+      <form id="fs-frm" class="contact-form" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xbjqjnyp"
+            method="post">
+            <fieldset id="fs-frm-inputs">
+                <div class="row align-content-center">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                </div>
+                <div class="row align-content-center">
+                    <label for="email-address">Email Address</label>
+                    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                </div>
+                <div class="row align-content-center">
+                    <label for="message">Message</label>
+                    <textarea rows="5" name="message" id="message" required=""></textarea>
+                </div>
+                <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            </fieldset>
 
-          <label for="full-name">Full Name</label>
-          <input
-            type="text"
-            name="name"
-            id="full-name"
-            placeholder="First and Last"
-            required=""
-          />
+            <button type="submit" class="contact">Submit</button>
+        </form>
+      </section>
 
-        </div>
-        <div class="row justify-content-center">
-            <div class="col">
-          <label for="email-address">Email Address</label>
-          <input
-            type="email"
-            name="_replyto"
-            id="email-address"
-            placeholder="email@domain.tld"
-            required=""
-          />
-        </div>
-        <div class="row justify-content-center">
-            <div class="col">
-          <label for="message">Message</label>
-          <textarea
-            rows="5"
-            name="message"
-            id="message"
-            required=""
-          ></textarea>
-          <input
-            type="hidden"
-            name="_subject"
-            id="email-subject"
-            value="Contact Form Submission"
-          />
-        </div>
-        </fieldset>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-    </section>
+      <!-- Footer -->
 
-    <div class="container-fluid">
+    <div class="container-fluid footer">
       <footer class="pt-4 my-md-5 pt-md-5 border-top">
         <div class="row">
           <div class="col-6 col-md">
-            <h5>Projects</h5>
+            <h5>Let's Connect</h5>
             <ul class="list-unstyled text-small">
               <li class="mb-1">
-                <a class="link-secondary text-decoration-none" href="#"
-                  >Static Site</a
+                <a class="link-secondary text-decoration-none" href="https://github.com/AmieHood" target="_blank"
+                  >Github</a
                 >
               </li>
               <li class="mb-1">
-                <a class="link-secondary text-decoration-none" href="#"
-                  >CSS Creature</a
+                <a class="link-secondary text-decoration-none" href="https://www.linkedin.com/in/amie-hood-29906a32/" target="_blank"
+                  >LinkedIn</a
                 >
               </li>
             </ul>
           </div>
           <div class="col-6 col-md">
-            <h5>Other Platforms</h5>
+            <h5>Off Hours</h5>
             <ul class="list-unstyled text-small">
               <li class="mb-1">
-                <a class="link-secondary text-decoration-none" href="#"
-                  >Github</a
+                <a class="link-secondary text-decoration-none" href="https://breastfeedingusa.org/" target="_blank"
+                  >Breastfeeding USA</a
                 >
               </li>
               <li class="mb-1">
-                <a class="link-secondary text-decoration-none" href="#"
-                  >LinkedIn</a
+                <a class="link-secondary text-decoration-none" href="https://www.philharmonicindy.org/" target="_blank"
+                  >Philharmonic Orchestra of Indianapolis</a
                 >
               </li>
             </ul>
