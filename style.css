@@ -39,7 +39,7 @@ h1 {
 
 .heading {
   background-image: url(./assets/eucalyptus.jpg);
-  margin-top: 48px;
+  margin-top: 40px;
 }
 
 .name {
@@ -71,8 +71,9 @@ nav a:hover {
   font-style: italic;
   align-items: center;
   border: none;
-  max-width: 40%;
+  max-width: 60%;
   padding: 40px 40px 40px 40px;
+  margin-top: 40px;
 }
 
 .aboutMe p {
@@ -112,8 +113,9 @@ nav a:hover {
 }
 
 .projects {
-  margin-top: 70px;
+  margin-top: 40px;
   margin-bottom: 70px;
+  padding-top: 30px;
 }
 
 
@@ -304,7 +306,7 @@ h5 {
 .contact {
   display: inline-block;
   text-decoration: none;
-  margin-top: 10px;
+  margin-top: 40px;
   padding: 5px 10px 5px 10px;
   background: #173e43;
   color: #e3e0cf;
